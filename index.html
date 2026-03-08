@@ -3,38 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Off Campus — Beyond Classroom, Into Life</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-components-web/13.0.0/material-components-web.min.css">
+    <title>Google-Inspired Design</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            transition: background-color 0.3s ease;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .search {
+            display: flex;
+            align-items: center;
+        }
+        .search input {
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 4px;
+            outline: none;
+            transition: border 0.3s;
+        }
+        .search input:focus {
+            border-color: #6200ea;
+        }
+        .search button {
+            background-color: #6200ea;
+            border: none;
+            color: white;
+            padding: 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 5px;
+            transition: background-color 0.3s;
+        }
+        .search button:hover {
+            background-color: #3700b3;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Off Campus</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>Google-Inspired App</h1>
+        <div class="search">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
     </header>
-
-    <section id="about">
-        <h2>About Us</h2>
-        <p>Welcome to Off Campus. We provide opportunities beyond the classroom to help you grow in all aspects of life.</p>
-    </section>
-
-    <section id="services">
-        <h2>Our Services</h2>
-        <p>Explore our services designed to enhance your learning experience.</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Get in touch with us for more information.</p>
-    </section>
-
+    <main>
+        <h2>Welcome to Our Platform</h2>
+        <p>This is a Google-inspired design with a minimalist UI and clean typography.</p>
+    </main>
     <footer>
-        <p>&copy; 2026 Off Campus. All rights reserved.</p>
+        <p>&copy; 2026 Your Company Name. All rights reserved.</p>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/material-components-web/13.0.0/material-components-web.min.js"></script>
 </body>
 </html>
